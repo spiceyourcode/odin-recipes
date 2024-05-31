@@ -1,0 +1,55 @@
+a{
+    display:block;
+}
+nav{
+   
+    display: grid;
+    grid-template-columns:300px 300px;
+    margin: 100px auto ;
+}
+
+a{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 11px;
+
+
+    text-decoration: none;
+    color: black;
+    font-weight: 17pt;
+    display: grid;
+    place-items: center
+    ;
+  
+}
+
+a:nth-child(1){
+    background-image: url('/images/lasagna.jpeg');
+    background-repeat: no-repeat;
+
+}
+
+a:nth-child(2){
+    background-image: url('/images/bread.jpeg');
+    background-repeat: no-repeat;
+}
+a:nth-child(3){
+    background-image: url('/images/pancakes.jpeg');
+    background-repeat: no-repeat;
+}
+a:nth-child(4){
+    background-image: url('/images/cupcakes.jpeg');
+    background-repeat: no-repeat;
+}
+
+a:hover{
+    transform: scale(109%);
+    color: aliceblue;
+    transition-duration: .6s ;
+    transition-delay: .2s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    
+}
