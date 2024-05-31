@@ -26,21 +26,21 @@ a{
 }
 
 a:nth-child(1){
-    background-image: url('/images/lasagna.jpeg');
+    background-image: url('images/lasagna.jpeg');
     background-repeat: no-repeat;
 
 }
 
 a:nth-child(2){
-    background-image: url('/images/bread.jpeg');
+    background-image: url('images/bread.jpeg');
     background-repeat: no-repeat;
 }
 a:nth-child(3){
-    background-image: url('/images/pancakes.jpeg');
+    background-image: url('images/pancakes.jpeg');
     background-repeat: no-repeat;
 }
 a:nth-child(4){
-    background-image: url('/images/cupcakes.jpeg');
+    background-image: url('images/cupcakes.jpeg');
     background-repeat: no-repeat;
 }
 
